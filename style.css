@@ -1,7 +1,8 @@
 body {
     background: #FFFAE9;
     color: #041725;
-
+    font-family: "Ingra", sans-serif;
+    font-size: 62.5%;
 }
 
 * {
