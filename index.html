@@ -7,20 +7,23 @@
     <title>OH.graphisme</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/bjz2jee.css">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.98/build/spline-viewer.js"></script>
 </head>
 
 <body>
 
     <header>
-        <nav class="Navbar">
+        <nav class="navbar">
             <div class="logo">
-                <img src=".//ASSETS/IMAGES/LOGO.svg" alt="Logo" width="50px" height="50px">
+                <img src=".//ASSETS/IMAGES/LOGO.svg" alt="Logo">
             </div>
 
-            <a href="#Work">Work</a>
-            <a href="#About">About</a>
-            <a href="mailto:oh.graphisme@gmail.com">Contact</a>
 
+            <div class="nav-links">
+                <a href="#Work">WORK</a>
+                <a href="#About">ABOUT</a>
+                <a href="mailto:oh.graphisme@gmail.com">CONTACT</a>
+            </div>
         </nav>
     </header>
 
@@ -28,16 +31,21 @@
         <!-- Hero section -->
         <div class="hero-section" id="Landing">
 
-            <h1 class="Welcome-world"> <span class="bienvenue"> Bienvenue
-                </span>dans mon univers</h1>
+            <div class="left">
+                <h1>
+                    <span class="shantell">Bienvenue</span> dans mon univers
+                </h1>
 
-            <p>
-                Mon univers est le mélange de mes passions: le graphisme, la culture japonaise, la culture espagnole et
-                l'océan.
-            </p>
-
+                <p>
+                    Mon univers est le mélange de mes passions: le graphisme, la culture japonaise, la culture espagnole
+                    et
+                    l'océan.
+                </p>
+            </div>
             <!-- Spline -->
-
+            <div class="right">
+                <spline-viewer url="https://prod.spline.design/l-GuvK3vEPy3E8oh/scene.splinecode"></spline-viewer>
+            </div>
         </div>
         <!-- End of hero section -->
 
@@ -61,7 +69,9 @@
 
             <img src=".//ASSETS/IMAGES/PP.png" alt="photo de profil" width="150px" height="200px">
 
-            <h2>Hello, je m'appelle Océane</h2>
+            <h1>
+                Hello, je m'appelle <span class="shantell">Océane</span>
+            </h1>
 
             <p>
 
@@ -84,12 +94,11 @@
 
     <footer>
 
-        <img src=".//ASSETS/IMAGES/Instagram.svg" alt="Instagram logo" width="30" height="30px">
+        <img src=".//ASSETS/IMAGES/Instagram.svg" alt="Instagram logo">
 
-        <img src=".//ASSETS/IMAGES/LinkdIn.svg" alt="LinkdIn logo" width="30px" height="30px">
+        <img src=".//ASSETS/IMAGES/LinkdIn.svg" alt="LinkdIn logo">
 
-        <a href="mailto:oh.graphisme@gmail.com"><img src=".//ASSETS/IMAGES/Mail.svg" alt="LinkdIn logo" width="30px"
-                height="30px"></a>
+        <a href="mailto:oh.graphisme@gmail.com"><img src=".//ASSETS/IMAGES/Mail.svg" alt="LinkdIn logo"></a>
 
     </footer>
 
