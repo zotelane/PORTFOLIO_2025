@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Contenue" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #036;
+      }
+
+      .cls-2 {
+        stroke: #a5c3fb;
+        stroke-width: 3.23px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-3 {
+        stroke: #fffce9;
+        stroke-width: 4.1px;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #fffce9;
+      }
+
+      .cls-5, .cls-7 {
+        font-family: ShantellSansInformalBouncy-Medium, 'Shantell Sans Informal Bouncy';
+        font-size: 50.02px;
+        font-weight: 500;
+      }
+
+      .cls-6 {
+        font-family: Ingra-Regular, Ingra;
+        font-size: 35.14px;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #f63;
+      }
+
+      .cls-9 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-10 {
+        fill: #92bcff;
+      }
+
+      .cls-11 {
+        letter-spacing: .09em;
+      }
+
+      .cls-12 {
+        fill: #36c;
+      }
+
+      .cls-4 {
+        stroke: #f63;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="20.45" y="98.92" width="468.7" height="302.15" rx="21.26" ry="21.26"/>
+  <text class="cls-7" transform="translate(48.78 182.8)"><tspan x="0" y="0">&lt;/&gt;</tspan></text>
+  <text class="cls-6" transform="translate(98.67 360.47)"><tspan x="0" y="0">ww</tspan><tspan class="cls-9" x="52.42" y="0">w</tspan><tspan x="77.58" y="0">.</tspan></text>
+  <line class="cls-4" x1="83.37" y1="213.31" x2="215.89" y2="213.31"/>
+  <line class="cls-4" x1="83.37" y1="228.53" x2="254.31" y2="228.53"/>
+  <line class="cls-4" x1="83.37" y1="243.75" x2="171.71" y2="243.75"/>
+  <line class="cls-4" x1="83.37" y1="273.17" x2="215.89" y2="273.17"/>
+  <line class="cls-4" x1="83.37" y1="288.39" x2="166.01" y2="288.39"/>
+  <text class="cls-5" transform="translate(296.41 180.54)"><tspan class="cls-11" x="0" y="0">{</tspan><tspan x="30.92" y="0">}</tspan></text>
+  <g>
+    <rect class="cls-8" x="374.29" y="186.73" width="69.13" height="69.13" rx="7.59" ry="7.59"/>
+    <path class="cls-12" d="M443.42,240.78v7.48c0,4.18-3.41,7.59-7.59,7.59h-53.94c-4.18,0-7.59-3.41-7.59-7.59v-1.14l13.3-22.43c2.62-4.41,8.91-4.69,11.91-.54l9.9,13.71,15.18-39.04c.8-2.05,3.71-1.99,4.43.08l14.41,41.88Z"/>
+    <circle class="cls-12" cx="393.06" cy="202.44" r="5.86"/>
+  </g>
+  <path class="cls-3" d="M362.1,330.87h70.6c4.32,0,7.86,3.54,7.86,7.86v24.94c0,4.32-3.54,7.86-7.86,7.86H94.95c-4.32,0-7.86-3.54-7.86-7.86v-24.94c0-4.32,3.54-7.86,7.86-7.86h168.61"/>
+  <g>
+    <path class="cls-10" d="M344.47,353.6l-66.2-3.54c-3.53-.16-5.54-4.11-3.59-7.07l36.13-55.58c1.95-2.95,6.36-2.73,7.96.42l8.9,17.49,29.93-15.23c3.74-1.9,8.32-.41,10.22,3.33l5.39,10.59c1.9,3.74.39,8.29-3.34,10.19l-29.93,15.23,8.9,17.49c1.61,3.17-.8,6.87-4.35,6.68Z"/>
+    <path class="cls-12" d="M342.97,350.02l-66.2-3.54c-3.53-.16-5.54-4.11-3.59-7.07l36.13-55.58c1.95-2.95,6.36-2.73,7.96.42l8.9,17.49,29.93-15.23c3.74-1.9,8.32-.41,10.22,3.33l5.39,10.59c1.9,3.74.39,8.29-3.34,10.19l-29.93,15.23,8.9,17.49c1.61,3.17-.8,6.87-4.35,6.68Z"/>
+    <g>
+      <g id="_Répétition_radiale_" data-name="&amp;lt;Répétition radiale&amp;gt;">
+        <line class="cls-2" x1="332.24" y1="269.77" x2="341.71" y2="247.13"/>
+      </g>
+      <g id="_Répétition_radiale_-2" data-name="&amp;lt;Répétition radiale&amp;gt;">
+        <line class="cls-2" x1="308.42" y1="268.2" x2="302.76" y2="244.32"/>
+      </g>
+      <g id="_Répétition_radiale_-3" data-name="&amp;lt;Répétition radiale&amp;gt;">
+        <line class="cls-2" x1="288.22" y1="280.94" x2="269.6" y2="264.94"/>
+      </g>
+    </g>
+  </g>
+</svg>
