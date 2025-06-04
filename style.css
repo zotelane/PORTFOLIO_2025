@@ -97,7 +97,7 @@ p {
     height: 100%;
     padding: 10rem 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 
@@ -139,16 +139,14 @@ p {
         max-width: 80rem;
         padding: 0 4rem 0 6rem;
 
-
         p {
             max-width: 50rem;
             margin-top: 2rem;
         }
     }
 
-
+    .go-back {}
 }
-
 
 /* Fin de la page de présentation */
 
