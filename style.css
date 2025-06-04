@@ -10,112 +10,13 @@ body {
     background: #FFFAE9;
     font-family: "Ingra", sans-serif;
     color: #041725;
-    font-size: 62.5%;
     padding: 0 3rem;
 
     main {
-        max-width: 1440px;
+        width: 100%;
         margin: 0 auto;
     }
 }
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 1rem 0 2rem 0;
-
-    .nav-links {
-        font-size: medium;
-        display: flex;
-        gap: 25px;
-        font-weight: bold;
-
-        a {
-            color: #041725;
-
-            &:hover {
-                color: #246FA8;
-            }
-        }
-    }
-
-    .logo {
-        width: 70px;
-        align-items: center;
-        display: flex;
-    }
-}
-
-.work-section {
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 1rem 0 2rem 0;
-
-    img {
-        display: flex;
-        align-items: center;
-        height: 450px;
-        width: 450px%;
-        margin: 0 auto;
-    }
-
-    .work-items h2 {
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-
-    a {
-        color: #041725;
-        font-size: 60px;
-        margin: 0 auto;
-
-        &:hover {
-            color: #246FA8;
-        }
-    }
-}
-
-.about-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 6rem 0 2 rem 0;
-
-    img {
-        display: flex;
-        height: 25%;
-        width: 50%;
-    }
-
-    h1 {
-        display: flex;
-
-
-    }
-}
-
-.icon {
-    position: relative;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 0 10px;
-
-    &:hover {
-        transform: translateY(-10px);
-    }
-}
-
 
 h1 {
     font-weight: bold;
@@ -133,19 +34,53 @@ p {
     color: #246FA8;
 }
 
+/* Barre de Navigation  */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.25rem 0 1rem 0;
+
+    .nav-links {
+        font-size: 1, 5 rem;
+        display: flex;
+        gap: 25px;
+        font-weight: bold;
+
+        a {
+            color: #041725;
+
+            &:hover {
+                color: #246FA8;
+            }
+        }
+    }
+
+    .logo {
+        width: 4rem;
+        align-items: center;
+        display: flex;
+    }
+}
+
+/* Fin de la barre de Navigation  */
+
+/* Page d'accueil */
 .hero-section {
     display: flex;
     align-items: center;
+    height: 100%;
 
     p {
-        max-width: 500px;
-        margin: 50px 0 0 0;
+        max-width: 50rem;
+        margin-top: 2rem;
     }
 
     .right {
         spline-viewer {
-            width: 800px;
-            height: 800px;
+            width: 50rem;
+            height: 50rem;
 
             iframe #logo {
                 display: none !important;
@@ -154,3 +89,91 @@ p {
         }
     }
 }
+
+/* Fin de la page d'accueil */
+
+/* Page des projets */
+.work-section {
+    height: 100%;
+    padding: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    img {
+        align-items: center;
+        height: 25rem;
+        width: 25rem;
+    }
+
+    a {
+        color: #041725;
+        font-size: 60px;
+        margin: 0 auto;
+
+        &:hover {
+            color: #246FA8;
+        }
+    }
+}
+
+/* Fin de la page des projets */
+
+/* Page présentation */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 6rem 0;
+
+    img {
+        width: 25rem;
+        height: auto;
+        object-fit: cover;
+        border-radius: 500px;
+    }
+
+    .droite {
+        max-width: 80rem;
+        padding: 0 4rem 0 6rem;
+
+
+        p {
+            max-width: 50rem;
+            margin-top: 2rem;
+        }
+    }
+
+
+}
+
+
+/* Fin de la page de présentation */
+
+/* Pied de page */
+footer {
+    width: 100vw;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    a {
+        transition: tranform 0.3s ease;
+
+        img {
+            width: 40px;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+/* Fin du pied de page */
