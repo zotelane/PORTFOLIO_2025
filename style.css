@@ -13,25 +13,24 @@ body {
     padding: 0 3rem;
 
     main {
-        width: 100%;
+        width: auto;
         margin: 0 auto;
     }
-}
 
-h1 {
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 70px;
-}
+    h1 {
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 70px;
+    }
 
-p {
-    font-size: 25px;
-}
+    p {
+        font-size: 25px;
+    }
 
-
-.shantell {
-    font-family: "shantell-sans-informalbouncy", sans-serif;
-    color: #246FA8;
+    .shantell {
+        font-family: "shantell-sans-informalbouncy", sans-serif;
+        color: #246FA8;
+    }
 }
 
 /* Barre de Navigation  */
@@ -95,15 +94,14 @@ p {
 /* Page des projets */
 .work-section {
     height: 100%;
-    padding: 10rem 0;
+    padding: 13rem 0;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
+    gap: 4rem;
     text-align: center;
 
     img {
         align-items: center;
-        height: 25rem;
         width: 25rem;
     }
 
@@ -122,22 +120,23 @@ p {
 
 /* Page présentation */
 .about-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100%;
-    padding: 6rem 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
 
     img {
         width: 25rem;
-        height: auto;
         object-fit: cover;
         border-radius: 500px;
     }
 
     .droite {
-        max-width: 80rem;
-        padding: 0 4rem 0 6rem;
+        max-width: 40rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 
         p {
             max-width: 50rem;
@@ -145,12 +144,53 @@ p {
         }
     }
 
-    .go-back {}
+    .btn-back {
+        margin-top: auto;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 4rem;
+
+        img {
+            width: 40px;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
 }
 
 /* Fin de la page de présentation */
 
 /* Page MOTION */
+.motion-page {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+
+    .projet {
+
+        img {
+            align-items: center;
+            width: 25rem;
+        }
+
+        a {
+            color: #041725;
+            font-size: 60px;
+            margin: 0 auto;
+
+            &:hover {
+                color: #246FA8;
+            }
+        }
+
+    }
+
+}
 
 /* Fin de la page MOTION */
 
@@ -164,8 +204,7 @@ p {
 
 /* Pied de page */
 footer {
-    width: 100vw;
-    padding: 2rem 0;
+    padding: 1rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
